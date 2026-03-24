@@ -1,0 +1,114 @@
+[0.024s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution -DCMAKE_INSTALL_PREFIX=/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.706s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.744s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.747s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.752s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.832s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.963s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.991s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.031s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.045s] -- Looking for pthread.h
+[1.115s] -- Looking for pthread.h - found
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.218s] -- Found Threads: TRUE  
+[1.291s] -- Found rtdl_demo_interfaces: 0.0.0 (/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/share/rtdl_demo_interfaces/cmake)
+[1.297s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.309s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.383s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.383s] -- Configured cppcheck include dirs: 
+[1.383s] -- Configured cppcheck exclude dirs and/or files: 
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.383s] -- Added test 'uncrustify' to check C / C++ code style
+[1.383s] -- Configured uncrustify additional arguments: 
+[1.384s] -- Added test 'xmllint' to check XML markup files
+[1.384s] -- Configuring done
+[1.391s] -- Generating done
+[1.394s] -- Build files have been written to: /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution
+[1.404s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution -DCMAKE_INSTALL_PREFIX=/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution
+[1.405s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
+[1.465s] [ 50%] [32mBuilding CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o[0m
+[3.532s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_pick(std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Response_<std::allocator<void> > >)[m[K’:
+[3.532s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:250:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.532s]   250 |    [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Pick::Request> req[m[K,
+[3.532s]       |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.532s] 
+[3.534s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_place(std::shared_ptr<rtdl_demo_interfaces::srv::Place_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Place_Response_<std::allocator<void> > >)[m[K’:
+[3.534s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<rtdl_demo_interfaces::srv::PlacePri>::async_send_request(std::shared_ptr<rtdl_demo_interfaces::srv::PickPri_Request_<std::allocator<void> > >&)[m[K’
+[3.534s]   294 |         auto future = [01;31m[Kplace_pri_client_->async_send_request(pri_req)[m[K;
+[3.534s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.535s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.535s]                  from [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12[m[K:
+[3.535s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = rtdl_demo_interfaces::srv::PlacePri][m[K’
+[3.535s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.535s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.535s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.535s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.535s]   294 |         auto future = [01;36m[Kplace_pri_client_->async_send_request(pri_req)[m[K;
+[3.535s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.535s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.535s]                  from [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12[m[K:
+[3.535s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = rtdl_demo_interfaces::srv::PlacePri][m[K’
+[3.535s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.535s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.535s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.535s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.535s]   294 |         auto future = [01;36m[Kplace_pri_client_->async_send_request(pri_req)[m[K;
+[3.535s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.535s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.535s]                  from [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12[m[K:
+[3.535s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = rtdl_demo_interfaces::srv::PlacePri; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> > >][m[K’
+[3.535s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[3.535s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.536s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Krtdl_demo_interfaces::srv::PickPri_Request_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> >[m[K>[m[K’
+[3.536s]   608 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[3.536s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.536s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:279:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.536s]   279 |   [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Place::Request> req[m[K,
+[3.536s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.536s] 
+[5.696s] gmake[2]: *** [CMakeFiles/skill_server.dir/build.make:76: CMakeFiles/skill_server.dir/src/skill_server.cpp.o] Error 1
+[5.696s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/skill_server.dir/all] Error 2
+[5.696s] gmake: *** [Makefile:146: all] Error 2
+[5.706s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4

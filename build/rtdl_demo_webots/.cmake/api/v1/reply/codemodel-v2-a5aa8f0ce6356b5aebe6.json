@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8c50828367fd8b9a60e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtdl_demo_webots",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtdl_demo_webots_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtdl_demo_webots_driver-833b1d6d6199e2adfc13.json",
+					"name" : "rtdl_demo_webots_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtdl_demo_webots_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtdl_demo_webots_uninstall-55ea727b9db92d9ca2a8.json",
+					"name" : "rtdl_demo_webots_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-178692d71c80a3e9520e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots",
+		"source" : "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

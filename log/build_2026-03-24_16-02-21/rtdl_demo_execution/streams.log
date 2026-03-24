@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target skill_server[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o[0m
+[6.414s] [100%] [32m[1mLinking CXX executable skill_server[0m
+[6.712s] [100%] Built target skill_server
+[6.723s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
+[6.734s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution
+[6.741s] -- Install configuration: ""
+[6.741s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/lib/rtdl_demo_execution/skill_server
+[6.745s] -- Set runtime path of "/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/lib/rtdl_demo_execution/skill_server" to ""
+[6.745s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/package_run_dependencies/rtdl_demo_execution
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/parent_prefix_path/rtdl_demo_execution
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/ament_prefix_path.sh
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/ament_prefix_path.dsv
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/path.sh
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/path.dsv
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.bash
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.sh
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.zsh
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.dsv
+[6.746s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/package.dsv
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/packages/rtdl_demo_execution
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/cmake/rtdl_demo_executionConfig.cmake
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/cmake/rtdl_demo_executionConfig-version.cmake
+[6.746s] -- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/package.xml
+[6.749s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rtdl_demo_interfaces/srv/PlacePri.srv
+// generated code does not contain a copyright notice
+
+
+module rtdl_demo_interfaces {
+  module srv {
+    struct PlacePri_Request {
+      string object_name;
+
+      string location_name;
+    };
+    struct PlacePri_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

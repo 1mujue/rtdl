@@ -1,0 +1,4 @@
+Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots -- -j4 -l4
+Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots -- -j4 -l4
+Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots
+Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots

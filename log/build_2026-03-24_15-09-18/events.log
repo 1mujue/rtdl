@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.005303] (-) JobUnselected: {'identifier': 'ros2_bt_action_test'}
+[0.005402] (-) JobUnselected: {'identifier': 'rtdl_demo_bringup'}
+[0.005477] (-) JobUnselected: {'identifier': 'rtdl_demo_bt'}
+[0.005538] (-) JobUnselected: {'identifier': 'rtdl_demo_interfaces'}
+[0.005597] (-) JobUnselected: {'identifier': 'rtdl_demo_webots'}
+[0.005624] (rtdl_demo_execution) JobQueued: {'identifier': 'rtdl_demo_execution', 'dependencies': OrderedDict([('rtdl_demo_interfaces', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces')])}
+[0.005660] (rtdl_demo_execution) JobStarted: {'identifier': 'rtdl_demo_execution'}
+[0.022641] (rtdl_demo_execution) JobProgress: {'identifier': 'rtdl_demo_execution', 'progress': 'cmake'}
+[0.022751] (rtdl_demo_execution) JobProgress: {'identifier': 'rtdl_demo_execution', 'progress': 'build'}
+[0.022993] (rtdl_demo_execution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution', '--', '-j4', '-l4'], 'cwd': '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:'), ('USER', 'mujue'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mujue'), ('OLDPWD', '/home/mujue'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mujue'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mujue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mujue/.cargo/bin:/home/mujue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mujue-virtual-machine:@/tmp/.ICE-unix/1674,unix/mujue-virtual-machine:/tmp/.ICE-unix/1674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31c247c1_b594_4c8a_94a2_8bbf7df3c87a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCF7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.098283] (rtdl_demo_execution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target skill_server\x1b[0m\n'}
+[0.098679] (-) TimerEvent: {}
+[0.124441] (rtdl_demo_execution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o\x1b[0m\n'}
+[0.198948] (-) TimerEvent: {}
+[0.299629] (-) TimerEvent: {}
+[0.400304] (-) TimerEvent: {}
+[0.500845] (-) TimerEvent: {}
+[0.601507] (-) TimerEvent: {}
+[0.702338] (-) TimerEvent: {}
+[0.803072] (-) TimerEvent: {}
+[0.903879] (-) TimerEvent: {}
+[1.005445] (-) TimerEvent: {}
+[1.106280] (-) TimerEvent: {}
+[1.207053] (-) TimerEvent: {}
+[1.307655] (-) TimerEvent: {}
+[1.408323] (-) TimerEvent: {}
+[1.509421] (-) TimerEvent: {}
+[1.610175] (-) TimerEvent: {}
+[1.710820] (-) TimerEvent: {}
+[1.811620] (-) TimerEvent: {}
+[1.912346] (-) TimerEvent: {}
+[2.012934] (-) TimerEvent: {}
+[2.113663] (-) TimerEvent: {}
+[2.214316] (-) TimerEvent: {}
+[2.314918] (-) TimerEvent: {}
+[2.415569] (-) TimerEvent: {}
+[2.516298] (-) TimerEvent: {}
+[2.616984] (-) TimerEvent: {}
+[2.717960] (-) TimerEvent: {}
+[2.815499] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SkillServer::handle_pick(std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.816169] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:250:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.816296] (rtdl_demo_execution) StderrLine: {'line': b'  250 |    \x1b[01;35m\x1b[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Pick::Request> req\x1b[m\x1b[K,\n'}
+[2.816384] (rtdl_demo_execution) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.816469] (rtdl_demo_execution) StderrLine: {'line': b'\n'}
+[2.818088] (-) TimerEvent: {}
+[2.824136] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SkillServer::handle_place(std::shared_ptr<rtdl_demo_interfaces::srv::Place_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Place_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.826119] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<rtdl_demo_interfaces::srv::PlacePri>::async_send_request(std::shared_ptr<rtdl_demo_interfaces::srv::PickPri_Request_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.826167] (rtdl_demo_execution) StderrLine: {'line': b'  294 |         auto future = \x1b[01;31m\x1b[Kplace_pri_client_->async_send_request(pri_req)\x1b[m\x1b[K;\n'}
+[2.826198] (rtdl_demo_execution) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.826223] (rtdl_demo_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.826247] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.826268] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.826289] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.826309] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.826331] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.826353] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.826375] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.826396] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.826415] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12\x1b[m\x1b[K:\n'}
+[2.826435] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = rtdl_demo_interfaces::srv::PlacePri]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.826471] (rtdl_demo_execution) StderrLine: {'line': b'  643 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[2.826498] (rtdl_demo_execution) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.826518] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.826719] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.826888] (rtdl_demo_execution) StderrLine: {'line': b'  294 |         auto future = \x1b[01;36m\x1b[Kplace_pri_client_->async_send_request(pri_req)\x1b[m\x1b[K;\n'}
+[2.826999] (rtdl_demo_execution) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.827112] (rtdl_demo_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.827205] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.827513] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.827639] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.827715] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.827780] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.827851] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.827929] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.827998] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.828066] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12\x1b[m\x1b[K:\n'}
+[2.828148] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = rtdl_demo_interfaces::srv::PlacePri]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.828253] (rtdl_demo_execution) StderrLine: {'line': b'  674 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[2.828354] (rtdl_demo_execution) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.828436] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.828504] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:294:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.828571] (rtdl_demo_execution) StderrLine: {'line': b'  294 |         auto future = \x1b[01;36m\x1b[Kplace_pri_client_->async_send_request(pri_req)\x1b[m\x1b[K;\n'}
+[2.828632] (rtdl_demo_execution) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.828693] (rtdl_demo_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.828754] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.828813] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.828871] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.829027] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.829109] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.829243] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.829323] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.829389] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.829453] (rtdl_demo_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:12\x1b[m\x1b[K:\n'}
+[2.829515] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = rtdl_demo_interfaces::srv::PlacePri; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.829590] (rtdl_demo_execution) StderrLine: {'line': b'  608 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[2.829656] (rtdl_demo_execution) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.829715] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krtdl_demo_interfaces::srv::PickPri_Request_<std::allocator<void> >\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> >\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.829788] (rtdl_demo_execution) StderrLine: {'line': b'  608 |   async_send_request(\x1b[01;36m\x1b[KSharedRequest request\x1b[m\x1b[K)\n'}
+[2.829851] (rtdl_demo_execution) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.829909] (rtdl_demo_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:279:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.829970] (rtdl_demo_execution) StderrLine: {'line': b'  279 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Place::Request> req\x1b[m\x1b[K,\n'}
+[2.830027] (rtdl_demo_execution) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.830093] (rtdl_demo_execution) StderrLine: {'line': b'\n'}
+[2.918466] (-) TimerEvent: {}
+[3.019278] (-) TimerEvent: {}
+[3.119989] (-) TimerEvent: {}
+[3.220860] (-) TimerEvent: {}
+[3.321612] (-) TimerEvent: {}
+[3.422534] (-) TimerEvent: {}
+[3.523277] (-) TimerEvent: {}
+[3.624005] (-) TimerEvent: {}
+[3.724842] (-) TimerEvent: {}
+[3.825735] (-) TimerEvent: {}
+[3.928043] (-) TimerEvent: {}
+[4.028755] (-) TimerEvent: {}
+[4.129349] (-) TimerEvent: {}
+[4.230018] (-) TimerEvent: {}
+[4.330875] (-) TimerEvent: {}
+[4.431691] (-) TimerEvent: {}
+[4.532944] (-) TimerEvent: {}
+[4.633650] (-) TimerEvent: {}
+[4.734410] (-) TimerEvent: {}
+[4.835225] (-) TimerEvent: {}
+[4.935796] (-) TimerEvent: {}
+[5.036619] (-) TimerEvent: {}
+[5.137281] (-) TimerEvent: {}
+[5.147840] (rtdl_demo_execution) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/skill_server.dir/build.make:76: CMakeFiles/skill_server.dir/src/skill_server.cpp.o] Error 1\n'}
+[5.148206] (rtdl_demo_execution) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/skill_server.dir/all] Error 2\n'}
+[5.148256] (rtdl_demo_execution) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.151132] (rtdl_demo_execution) CommandEnded: {'returncode': 2}
+[5.159233] (rtdl_demo_execution) JobEnded: {'identifier': 'rtdl_demo_execution', 'rc': 2}
+[5.170114] (-) EventReactorShutdown: {}

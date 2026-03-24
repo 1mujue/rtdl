@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000632] (-) JobUnselected: {'identifier': 'ros2_bt_action_test'}
+[0.000671] (-) JobUnselected: {'identifier': 'rtdl_demo_bringup'}
+[0.000684] (-) JobUnselected: {'identifier': 'rtdl_demo_bt'}
+[0.001303] (-) JobUnselected: {'identifier': 'rtdl_demo_execution'}
+[0.001324] (-) JobUnselected: {'identifier': 'rtdl_demo_interfaces'}
+[0.001337] (rtdl_demo_webots) JobQueued: {'identifier': 'rtdl_demo_webots', 'dependencies': OrderedDict([('rtdl_demo_interfaces', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces')])}
+[0.001359] (rtdl_demo_webots) JobStarted: {'identifier': 'rtdl_demo_webots'}
+[0.017115] (rtdl_demo_webots) JobProgress: {'identifier': 'rtdl_demo_webots', 'progress': 'cmake'}
+[0.018870] (rtdl_demo_webots) JobProgress: {'identifier': 'rtdl_demo_webots', 'progress': 'build'}
+[0.018916] (rtdl_demo_webots) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots', '--', '-j4', '-l4'], 'cwd': '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:'), ('USER', 'mujue'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mujue'), ('OLDPWD', '/home/mujue'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mujue'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mujue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mujue/.cargo/bin:/home/mujue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mujue-virtual-machine:@/tmp/.ICE-unix/1674,unix/mujue-virtual-machine:/tmp/.ICE-unix/1674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31c247c1_b594_4c8a_94a2_8bbf7df3c87a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCF7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.089554] (rtdl_demo_webots) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rtdl_demo_webots_driver.dir/src/WorldBridgeDriver.cpp.o\x1b[0m\n'}
+[0.100033] (-) TimerEvent: {}
+[0.200546] (-) TimerEvent: {}
+[0.301046] (-) TimerEvent: {}
+[0.401608] (-) TimerEvent: {}
+[0.502177] (-) TimerEvent: {}
+[0.602717] (-) TimerEvent: {}
+[0.703313] (-) TimerEvent: {}
+[0.803914] (-) TimerEvent: {}
+[0.904431] (-) TimerEvent: {}
+[1.004939] (-) TimerEvent: {}
+[1.105542] (-) TimerEvent: {}
+[1.206108] (-) TimerEvent: {}
+[1.306704] (-) TimerEvent: {}
+[1.407297] (-) TimerEvent: {}
+[1.507925] (-) TimerEvent: {}
+[1.608543] (-) TimerEvent: {}
+[1.709111] (-) TimerEvent: {}
+[1.809721] (-) TimerEvent: {}
+[1.910338] (-) TimerEvent: {}
+[2.010953] (-) TimerEvent: {}
+[2.098135] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic std::string rtdl_demo_webots::WorldBridgeDriver::roomOf(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.098366] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:14:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.098440] (rtdl_demo_webots) StderrLine: {'line': b'   14 | std::string WorldBridgeDriver::roomOf(double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K)\n'}
+[2.098470] (rtdl_demo_webots) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[2.105822] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rtdl_demo_webots::WorldBridgeDriver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.106022] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:43:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kproperties\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.106059] (rtdl_demo_webots) StderrLine: {'line': b'   43 |   \x1b[01;35m\x1b[Kstd::unordered_map<std::string, std::string> & properties\x1b[m\x1b[K)\n'}
+[2.106088] (rtdl_demo_webots) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110026] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rtdl_demo_webots::WorldBridgeDriver::handleGetWorldState(std::shared_ptr<rtdl_demo_interfaces::srv::GetWorldState_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::GetWorldState_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.110212] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:112:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.110251] (rtdl_demo_webots) StderrLine: {'line': b'  112 | \x1b[01;35m\x1b[Kstd::shared_ptr<rtdl_demo_interfaces::srv::GetWorldState::Request> req\x1b[m\x1b[K,\n'}
+[2.110279] (rtdl_demo_webots) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.110304] (rtdl_demo_webots) StderrLine: {'line': b'\n'}
+[2.111210] (-) TimerEvent: {}
+[2.115671] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rtdl_demo_webots::WorldBridgeDriver::handlePlacePri(std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.115779] (rtdl_demo_webots) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_webots/src/WorldBridgeDriver.cpp:289:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktranslations_field\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.115811] (rtdl_demo_webots) StderrLine: {'line': b'  289 |   WbFieldRef \x1b[01;35m\x1b[Ktranslations_field\x1b[m\x1b[K = wb_supervisor_node_get_field(cup_node_, "translations");\n'}
+[2.115839] (rtdl_demo_webots) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.211519] (-) TimerEvent: {}
+[2.312317] (-) TimerEvent: {}
+[2.413173] (-) TimerEvent: {}
+[2.513955] (-) TimerEvent: {}
+[2.615618] (-) TimerEvent: {}
+[2.716152] (-) TimerEvent: {}
+[2.816905] (-) TimerEvent: {}
+[2.917555] (-) TimerEvent: {}
+[3.018216] (-) TimerEvent: {}
+[3.118807] (-) TimerEvent: {}
+[3.219307] (-) TimerEvent: {}
+[3.319942] (-) TimerEvent: {}
+[3.420520] (-) TimerEvent: {}
+[3.521089] (-) TimerEvent: {}
+[3.621638] (-) TimerEvent: {}
+[3.722172] (-) TimerEvent: {}
+[3.822723] (-) TimerEvent: {}
+[3.923191] (-) TimerEvent: {}
+[4.023759] (-) TimerEvent: {}
+[4.124432] (-) TimerEvent: {}
+[4.224884] (-) TimerEvent: {}
+[4.325209] (-) TimerEvent: {}
+[4.425808] (-) TimerEvent: {}
+[4.426882] (rtdl_demo_webots) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library librtdl_demo_webots_driver.so\x1b[0m\n'}
+[4.525995] (-) TimerEvent: {}
+[4.628503] (-) TimerEvent: {}
+[4.729143] (-) TimerEvent: {}
+[4.829508] (-) TimerEvent: {}
+[4.930008] (-) TimerEvent: {}
+[5.011435] (rtdl_demo_webots) StdoutLine: {'line': b'[100%] Built target rtdl_demo_webots_driver\n'}
+[5.022441] (rtdl_demo_webots) CommandEnded: {'returncode': 0}
+[5.024159] (rtdl_demo_webots) JobProgress: {'identifier': 'rtdl_demo_webots', 'progress': 'install'}
+[5.030466] (-) TimerEvent: {}
+[5.033866] (rtdl_demo_webots) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots'], 'cwd': '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:'), ('USER', 'mujue'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mujue'), ('OLDPWD', '/home/mujue'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mujue'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mujue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mujue/.cargo/bin:/home/mujue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mujue-virtual-machine:@/tmp/.ICE-unix/1674,unix/mujue-virtual-machine:/tmp/.ICE-unix/1674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31c247c1_b594_4c8a_94a2_8bbf7df3c87a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCF7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_webots'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.043059] (rtdl_demo_webots) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.043225] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/rtdl_demo_webots_driver.xml\n'}
+[5.043671] (rtdl_demo_webots) StdoutLine: {'line': b'-- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/lib/librtdl_demo_webots_driver.so\n'}
+[5.051530] (rtdl_demo_webots) StdoutLine: {'line': b'-- Set runtime path of "/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/lib/librtdl_demo_webots_driver.so" to ""\n'}
+[5.051717] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/include/\n'}
+[5.051758] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/include//rtdl_demo_webots\n'}
+[5.051789] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/include//rtdl_demo_webots/WorldBridgeDriver.hpp\n'}
+[5.051817] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/include//rtdl_demo_webots/CarDriver.hpp\n'}
+[5.051853] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/launch\n'}
+[5.052011] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/launch/robot_launch.py\n'}
+[5.052128] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/worlds\n'}
+[5.052274] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/worlds/rtdl_demo_webots.wbt\n'}
+[5.052365] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/resource\n'}
+[5.052529] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/resource/my_robot.urdf\n'}
+[5.052573] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/resource/bridge_robot.urdf\n'}
+[5.052600] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/ament_index/resource_index/package_run_dependencies/rtdl_demo_webots\n'}
+[5.052634] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/ament_index/resource_index/parent_prefix_path/rtdl_demo_webots\n'}
+[5.052659] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/environment/ament_prefix_path.sh\n'}
+[5.052681] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/environment/ament_prefix_path.dsv\n'}
+[5.052770] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/environment/path.sh\n'}
+[5.052842] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/environment/path.dsv\n'}
+[5.052878] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/local_setup.bash\n'}
+[5.052907] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/local_setup.sh\n'}
+[5.052935] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/local_setup.zsh\n'}
+[5.052960] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/local_setup.dsv\n'}
+[5.052984] (rtdl_demo_webots) StdoutLine: {'line': b'-- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/package.dsv\n'}
+[5.053386] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/ament_index/resource_index/packages/rtdl_demo_webots\n'}
+[5.053437] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/rtdl_demo_webots\n'}
+[5.053464] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/cmake/rtdl_demo_webotsConfig.cmake\n'}
+[5.053499] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/cmake/rtdl_demo_webotsConfig-version.cmake\n'}
+[5.053523] (rtdl_demo_webots) StdoutLine: {'line': b'-- Up-to-date: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_webots/share/rtdl_demo_webots/package.xml\n'}
+[5.055280] (rtdl_demo_webots) CommandEnded: {'returncode': 0}
+[5.091892] (rtdl_demo_webots) JobEnded: {'identifier': 'rtdl_demo_webots', 'rc': 0}
+[5.092277] (-) EventReactorShutdown: {}

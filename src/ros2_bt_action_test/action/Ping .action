@@ -1,0 +1,6 @@
+string request
+---
+bool success
+string reply
+---
+string progress

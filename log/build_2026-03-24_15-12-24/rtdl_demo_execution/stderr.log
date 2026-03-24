@@ -1,0 +1,10 @@
+[01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_pick(std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:250:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  250 |    [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Pick::Request> req[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_place(std::shared_ptr<rtdl_demo_interfaces::srv::Place_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Place_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:279:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  279 |   [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Place::Request> req[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

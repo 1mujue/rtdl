@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="bridge_robot">
+    <webots>
+        <plugin type="rtdl_demo_webots::WorldBridgeDriver"/>
+    </webots>
+</robot>

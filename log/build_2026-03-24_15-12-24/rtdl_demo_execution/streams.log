@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target skill_server[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o[0m
+[2.436s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_pick(std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Pick_Response_<std::allocator<void> > >)[m[K’:
+[2.436s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:250:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.436s]   250 |    [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Pick::Request> req[m[K,
+[2.436s]       |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.436s] 
+[2.442s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:[m[K In member function ‘[01m[Kvoid SkillServer::handle_place(std::shared_ptr<rtdl_demo_interfaces::srv::Place_Request_<std::allocator<void> > >, std::shared_ptr<rtdl_demo_interfaces::srv::Place_Response_<std::allocator<void> > >)[m[K’:
+[2.442s] [01m[K/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_execution/src/skill_server.cpp:279:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.442s]   279 |   [01;35m[Kconst std::shared_ptr<rtdl_demo_interfaces::srv::Place::Request> req[m[K,
+[2.442s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.442s] 
+[7.492s] [100%] [32m[1mLinking CXX executable skill_server[0m
+[7.890s] [100%] Built target skill_server
+[7.902s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
+[7.913s] Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution
+[7.924s] -- Install configuration: ""
+[7.924s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/lib/rtdl_demo_execution/skill_server
+[7.928s] -- Set runtime path of "/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/lib/rtdl_demo_execution/skill_server" to ""
+[7.928s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/package_run_dependencies/rtdl_demo_execution
+[7.928s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/parent_prefix_path/rtdl_demo_execution
+[7.928s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/ament_prefix_path.sh
+[7.928s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/ament_prefix_path.dsv
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/path.sh
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/environment/path.dsv
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.bash
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.sh
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.zsh
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/local_setup.dsv
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/package.dsv
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/ament_index/resource_index/packages/rtdl_demo_execution
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/cmake/rtdl_demo_executionConfig.cmake
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/cmake/rtdl_demo_executionConfig-version.cmake
+[7.929s] -- Installing: /home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_execution/share/rtdl_demo_execution/package.xml
+[7.932s] Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution

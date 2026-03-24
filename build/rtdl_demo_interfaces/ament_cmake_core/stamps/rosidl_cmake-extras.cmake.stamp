@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(rtdl_demo_interfaces_IDL_FILES "msg/ObjectState.idl;msg/WorldState.idl;srv/CheckObjectInRoom.idl;srv/GetWorldState.idl;srv/NavTo.idl;srv/Pick.idl;srv/Place.idl;srv/PickPri.idl;srv/PlacePri.idl")
+set(rtdl_demo_interfaces_INTERFACE_FILES "msg/ObjectState.msg;msg/WorldState.msg;srv/CheckObjectInRoom.srv;srv/CheckObjectInRoom_Request.msg;srv/CheckObjectInRoom_Response.msg;srv/GetWorldState.srv;srv/GetWorldState_Request.msg;srv/GetWorldState_Response.msg;srv/NavTo.srv;srv/NavTo_Request.msg;srv/NavTo_Response.msg;srv/Pick.srv;srv/Pick_Request.msg;srv/Pick_Response.msg;srv/Place.srv;srv/Place_Request.msg;srv/Place_Response.msg;srv/PickPri.srv;srv/PickPri_Request.msg;srv/PickPri_Response.msg;srv/PlacePri.srv;srv/PlacePri_Request.msg;srv/PlacePri_Response.msg")

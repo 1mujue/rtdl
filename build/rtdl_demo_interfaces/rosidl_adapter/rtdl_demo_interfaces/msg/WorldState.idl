@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtdl_demo_interfaces/msg/WorldState.msg
+// generated code does not contain a copyright notice
+
+#include "rtdl_demo_interfaces/msg/ObjectState.idl"
+
+module rtdl_demo_interfaces {
+  module msg {
+    struct WorldState {
+      string robot_room;
+
+      string holding_object;
+
+      double robot_x;
+
+      double robot_y;
+
+      double robot_yaw;
+
+      sequence<rtdl_demo_interfaces::msg::ObjectState> objects;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+  "package_name": "rtdl_demo_interfaces",
+  "non_idl_tuples": [
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:msg/ObjectState.msg",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:msg/WorldState.msg",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/CheckObjectInRoom.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/GetWorldState.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/NavTo.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/Pick.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/Place.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/PickPri.srv",
+    "/home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces:srv/PlacePri.srv"
+  ]
+}
