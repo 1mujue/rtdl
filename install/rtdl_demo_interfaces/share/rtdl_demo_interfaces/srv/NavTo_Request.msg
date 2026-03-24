@@ -1,1 +1,0 @@
-string room_name

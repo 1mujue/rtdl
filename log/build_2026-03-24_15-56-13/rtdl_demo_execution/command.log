@@ -1,4 +1,0 @@
-Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
-Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution -- -j4 -l4
-Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution
-Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_execution

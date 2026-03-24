@@ -1,6 +1,0 @@
-Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces -DCMAKE_INSTALL_PREFIX=/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces
-Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mujue/pros/ud/ros2_rtdl/src/rtdl_demo_interfaces -DCMAKE_INSTALL_PREFIX=/home/mujue/pros/ud/ros2_rtdl/install/rtdl_demo_interfaces
-Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces -- -j4 -l4
-Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces -- -j4 -l4
-Invoking command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces
-Invoked command in '/home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mujue/pros/ud/ros2_rtdl/build/rtdl_demo_interfaces

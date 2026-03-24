@@ -1,6 +1,0 @@
-setup.py
-rtdl_demo_interfaces/__init__.py
-rtdl_demo_interfaces.egg-info/PKG-INFO
-rtdl_demo_interfaces.egg-info/SOURCES.txt
-rtdl_demo_interfaces.egg-info/dependency_links.txt
-rtdl_demo_interfaces.egg-info/top_level.txt
