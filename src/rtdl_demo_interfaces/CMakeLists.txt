@@ -14,8 +14,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectState.msg"
+  "msg/RobotState.msg"
   "msg/WorldState.msg"
-  "srv/CheckObjectInRoom.srv"
   "srv/GetWorldState.srv"
   "srv/NavTo.srv"
   "srv/Pick.srv"

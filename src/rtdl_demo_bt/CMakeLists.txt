@@ -13,7 +13,6 @@ find_package(behaviortree_cpp REQUIRED)
 
 add_executable(bt_runner
   src/bt_runner.cpp
-  src/check_object_in_room_node.cpp
   src/nav_to_node.cpp
   src/pick_node.cpp
   src/place_node.cpp

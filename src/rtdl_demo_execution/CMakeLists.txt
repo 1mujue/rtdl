@@ -11,7 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(rtdl_demo_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
-add_executable(skill_server src/skill_server.cpp)
+add_executable(skill_server src/SkillServer.cpp)
 ament_target_dependencies(skill_server 
   rclcpp 
   rtdl_demo_interfaces

@@ -5,7 +5,6 @@
 #include "behaviortree_cpp/bt_factory.h"
 #include "rclcpp/rclcpp.hpp"
 
-#include "rtdl_demo_bt/check_object_in_room_node.hpp"
 #include "rtdl_demo_bt/nav_to_node.hpp"
 #include "rtdl_demo_bt/pick_node.hpp"
 #include "rtdl_demo_bt/place_node.hpp"
@@ -15,12 +14,6 @@ int main(int argc, char** argv){
 
     auto ros_node = rclcpp::Node::make_shared("bt_runner");
     BT::BehaviorTreeFactory factory;
-
-    factory.registerBuilder<rtdl_demo_bt::CheckObjectInRoomNode>(
-    "CheckObjectInRoom",
-    [ros_node](const std::string & name, const BT::NodeConfig & config) {
-      return std::make_unique<rtdl_demo_bt::CheckObjectInRoomNode>(name, config, ros_node);
-    });
 
     factory.registerBuilder<rtdl_demo_bt::NavToNode>(
         "NavTo",

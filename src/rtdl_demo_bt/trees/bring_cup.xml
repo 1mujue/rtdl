@@ -1,10 +1,9 @@
 <root BTCPP_format="4">
   <BehaviorTree ID="MainTree">
     <Sequence name="bring_cup_sequence">
-      <CheckObjectInRoom object_name="cup" room_name="kitchen"/>
-      <NavTo room_name="kitchen"/>
+      <NavTo x="1.8" y="1.8"/>
       <Pick object_name="cup"/>
-      <NavTo room_name="living_room"/>
+      <NavTo x="-1.8" y="1.8"/>
       <Place object_name="cup" location_name="table"/>
     </Sequence>
   </BehaviorTree>
