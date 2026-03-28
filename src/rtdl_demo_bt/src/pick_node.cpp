@@ -15,22 +15,22 @@ PickNode::PickNode(
 BT::PortsList PickNode::providedPorts()
 {
   return {
+    BT::InputPort<std::string>("robot_name"),
     BT::InputPort<std::string>("object_name")
   };
 }
 
 BT::NodeStatus PickNode::tick()
 {
+  auto robot_name = getInput<std::string>("robot_name");
   auto object_name = getInput<std::string>("object_name");
-  if (!object_name) {
-    throw BT::RuntimeError("missing required input [object_name]: ", object_name.error());
-  }
 
   if (!wait_for_service<rtdl_demo_interfaces::srv::Pick>(client_, "/pick")) {
     return BT::NodeStatus::FAILURE;
   }
 
   auto request = std::make_shared<rtdl_demo_interfaces::srv::Pick::Request>();
+  request->robot_name = robot_name.value();
   request->object_name = object_name.value();
 
   rtdl_demo_interfaces::srv::Pick::Response::SharedPtr response;

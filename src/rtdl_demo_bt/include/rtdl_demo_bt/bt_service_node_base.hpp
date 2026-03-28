@@ -43,15 +43,28 @@ protected:
         const typename rclcpp::Client<ServiceT>::SharedPtr & client,
         const typename ServiceT::Request::SharedPtr & request,
         typename ServiceT::Response::SharedPtr & response_out,
-        std::chrono::milliseconds timeout = std::chrono::seconds(5))
+        std::chrono::milliseconds timeout = std::chrono::seconds(30))
     {
         auto future = client->async_send_request(request);
         auto ret = rclcpp::spin_until_future_complete(ros_node_, future, timeout);
-        if (ret != rclcpp::FutureReturnCode::SUCCESS) {
-        return false;
+
+        if (ret == rclcpp::FutureReturnCode::SUCCESS) {
+            response_out = future.get();
+            return true;
         }
-        response_out = future.get();
-        return true;
+
+        if (ret == rclcpp::FutureReturnCode::TIMEOUT) {
+            RCLCPP_ERROR(
+                ros_node_->get_logger(),
+                "Service call timeout after %ld ms",
+                timeout.count());
+            client->remove_pending_request(future);
+            return false;
+        }
+
+        RCLCPP_ERROR(ros_node_->get_logger(), "Service call interrupted");
+        client->remove_pending_request(future);
+        return false;
     }
 
     rclcpp::Node::SharedPtr ros_node_;

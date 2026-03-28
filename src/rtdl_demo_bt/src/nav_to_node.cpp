@@ -10,19 +10,21 @@ NavToNode::NavToNode(
 }
 BT::PortsList NavToNode::providedPorts(){
     return {
-        BT::InputPort<std::string>("room_name")
+        BT::InputPort<std::string>("robot_name"),
+        BT::InputPort<double>("x"),
+        BT::InputPort<double>("y"),
+        BT::InputPort<double>("tolerance")
     };
 }
 BT::NodeStatus NavToNode::tick() {
-    auto room_name = getInput<std::string>("room_name");
-    if (!room_name) {
-        throw BT::RuntimeError("missing required input [room_name]: ", room_name.error());
-    }
+    auto robot_name = getInput<std::string>("robot_name");
+    auto x = getInput<double>("x"), y = getInput<double>("y"), tolerance = getInput<double>("tolerance");
     if(!wait_for_service<rtdl_demo_interfaces::srv::NavTo>(client_, "/nav_to")){
         return BT::NodeStatus::FAILURE;
     }
     auto req = std::make_shared<rtdl_demo_interfaces::srv::NavTo::Request>();
-    req->room_name = room_name.value();
+    req->robot_name = robot_name.value();
+    req->x = x.value(), req->y = y.value(), req->tolerance = tolerance.value();
 
     rtdl_demo_interfaces::srv::NavTo::Response::SharedPtr res;
     if (!call_service_sync<rtdl_demo_interfaces::srv::NavTo>(client_, req, res)) {
@@ -32,8 +34,8 @@ BT::NodeStatus NavToNode::tick() {
 
     RCLCPP_INFO(
     ros_node_->get_logger(),
-    "NavTo(room=%s) -> success=%s, msg=%s",
-    req->room_name.c_str(),
+    "NavTo(x=%lf,y=%lf) -> success=%s, msg=%s",
+    req->x, req->y,
     res->success ? "true" : "false",
     res->message.c_str());
 

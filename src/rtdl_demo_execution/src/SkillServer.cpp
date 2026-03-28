@@ -104,6 +104,7 @@ private:
 
         auto pri_req =
             std::make_shared<rtdl_demo_interfaces::srv::PickPri::Request>();
+        pri_req->robot_name = req->robot_name;
         pri_req->object_name = req->object_name;
 
         auto future = pick_pri_client_->async_send_request(pri_req);
@@ -135,6 +136,7 @@ private:
         auto pri_req =
             std::make_shared<rtdl_demo_interfaces::srv::PlacePri::Request>();
 
+        pri_req->robot_name = req->robot_name;
         pri_req->object_name = req->object_name;
         pri_req->location_name = req->location_name;
 

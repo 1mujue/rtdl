@@ -1,10 +1,10 @@
 <root BTCPP_format="4">
   <BehaviorTree ID="MainTree">
     <Sequence name="bring_cup_sequence">
-      <NavTo x="1.8" y="1.8"/>
-      <Pick object_name="cup"/>
-      <NavTo x="-1.8" y="1.8"/>
-      <Place object_name="cup" location_name="table"/>
+      <NavTo robot_name = "CAR" x="1.8" y="1.8" tolerance = "0.1"/>
+      <Pick robot_name = "CAR" object_name="CUP"/>
+      <NavTo robot_name = "CAR" x="-1.8" y="1.8" tolerance = "0.1"/>
+      <Place robot_name = "CAR" object_name="CUP" location_name="TABLE"/>
     </Sequence>
   </BehaviorTree>
 </root>

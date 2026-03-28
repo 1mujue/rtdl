@@ -15,6 +15,7 @@ PlaceNode::PlaceNode(
 BT::PortsList PlaceNode::providedPorts()
 {
   return {
+    BT::InputPort<std::string>("robot_name"),
     BT::InputPort<std::string>("object_name"),
     BT::InputPort<std::string>("location_name")
   };
@@ -22,6 +23,7 @@ BT::PortsList PlaceNode::providedPorts()
 
 BT::NodeStatus PlaceNode::tick()
 {
+  auto robot_name = getInput<std::string>("robot_name");
   auto object_name = getInput<std::string>("object_name");
   auto location_name = getInput<std::string>("location_name");
 
@@ -37,6 +39,7 @@ BT::NodeStatus PlaceNode::tick()
   }
 
   auto request = std::make_shared<rtdl_demo_interfaces::srv::Place::Request>();
+  request->robot_name = robot_name.value();
   request->object_name = object_name.value();
   request->location_name = location_name.value();
 

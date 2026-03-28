@@ -265,7 +265,7 @@ namespace rtdl_demo_webots
   const std::shared_ptr<rtdl_demo_interfaces::srv::PickPri::Request> req,
   std::shared_ptr<rtdl_demo_interfaces::srv::PickPri::Response> res)
   {
-    const std::string robot_name = kMainRobotName;
+    const std::string robot_name = req->robot_name;
     const std::string object_name = req->object_name;
     constexpr double kPickDistanceThreshold = 0.5;
 
@@ -332,7 +332,7 @@ namespace rtdl_demo_webots
   const std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri::Request> req,
   std::shared_ptr<rtdl_demo_interfaces::srv::PlacePri::Response> res)
   {
-    const std::string robot_name = kMainRobotName;
+    const std::string robot_name = req->robot_name;
     const std::string object_name = req->object_name;
     const std::string support_name = req->location_name;
     constexpr double kPlaceDistanceThreshold = 2;
